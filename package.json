@@ -20,7 +20,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "dependency-graph": "^1.0.0"
+    "dependency-graph": "1.0.0"
   },
   "devDependencies": {
     "vitest": "^4.0.18"

@@ -2,7 +2,8 @@
 *
 
 # Explicit whitelist
-!dist
+!dist/
+!dist/**
 !package.json
 !package-lock.json
 !LICENSE
