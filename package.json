@@ -1,6 +1,6 @@
 {
   "name": "depload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple dependency-graph wrapper for service classes.",
   "homepage": "https://github.com/4S1ght/depload#readme",
   "bugs": {
