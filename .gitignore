@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# Explicit whitelist
+!src/
+!src/**
+!test/
+!test/**
+!.editorconfig
+!.gitignore
+!.npmignore
+!LICENSE
+!package.json
+!package-lock.json
+!README.MD

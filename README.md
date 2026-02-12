@@ -1,2 +1,2 @@
 # depload
-Simple dependency-graph wrapper for service classes
+Simple dependency-graph wrapper for service classes.

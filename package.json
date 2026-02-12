@@ -1,0 +1,28 @@
+{
+  "name": "depload",
+  "version": "1.0.0",
+  "description": "Simple dependency-graph wrapper for service classes.",
+  "homepage": "https://github.com/4S1ght/depload#readme",
+  "bugs": {
+    "url": "https://github.com/4S1ght/depload/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4S1ght/depload.git"
+  },
+  "license": "GPL-3.0",
+  "author": "4Sight",
+  "type": "module",
+  "main": "./build/main.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "node --watch ./src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dependency-graph": "^1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
+}

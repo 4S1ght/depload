@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Explicit whitelist
+!dist
+!package.json
+!package-lock.json
+!LICENSE
+!README.md
