@@ -12,7 +12,7 @@ export interface ServiceInstance {
      * or reading files, as well as receiving injected dependencies.
      * @returns 
      */
-    readonly initializer?: () => void | Promise<void>
+    readonly initiator?: () => void | Promise<void>
 
     /**
      * Called whenever the service is destroyed.  
@@ -96,7 +96,7 @@ export default class DependencyLoadContext {
             }, {})
 
             const instance = new Service(deps)
-            if (instance.initializer) await instance.initializer()
+            if (instance.initiator) await instance.initiator()
 
             this.instances.set(name, instance)
         }
